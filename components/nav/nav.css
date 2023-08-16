@@ -1,0 +1,110 @@
+.navbar{
+    padding: 1.2rem 0;
+    box-shadow: none;
+    max-width: 1150px;
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar-container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+}
+.main-icon img{
+    width: 100px;
+    height: auto;
+}
+.main-menu{
+    display: flex;
+    z-index: 2;
+    padding: 0;
+    font-size: 16px;
+    transition: transform 0.4s ease-in-out
+}
+.main-menu li{
+    padding: 15px;
+}
+.main-menu li a{
+    font-weight: 600;
+    font-size: 18px;
+    color: #141c3a;
+}
+.main-menu li:not(:nth-child(4)) a:hover {
+    font-weight: 700;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+}
+.main-menu li:nth-child(4) a{
+    color: #6E07F3;
+}
+.main-menu li:nth-child(4){
+    border: 2px solid #6E07F3;
+    border-radius: 5px;
+}
+.main-menu li:nth-child(4):hover{
+    background-color: #6E07F3;
+}
+.main-menu li:nth-child(4):hover a {
+    color: #fff;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    font-weight: 700;
+}
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    z-index: 1000;
+    transition: transform 0.4s ease-in-out;
+}
+.menu-toggle.open .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+.menu-toggle.open .bar:nth-child(2) {
+    opacity: 0;
+}
+.menu-toggle.open .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+.bar{
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+    transition: 0.4s;
+    background-color:#141c3a;
+}
+.menu-toggle:hover .bar{
+    background-color:#6E07F3;
+}
+
+@media (max-width: 600px) {
+    .main-menu {
+        display: none;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    .navbar.menu-open .main-menu {
+        flex-direction: column;
+        position: absolute;
+        top: -14px;
+        right: 0;
+        width: 50%;
+        background-color: #fff;
+        box-shadow: -5px 5px 20px 0px rgb(0 0 0 / 24%);
+        animation: slideIn 0.4s ease-in-out;
+    }
+    .navbar.menu-open .main-menu.open {
+        display: flex;
+    }
+    @keyframes slideIn{
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}

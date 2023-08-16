@@ -1,0 +1,24 @@
+.about__me__container{
+    background-color: #6E07F3;
+    margin-top: 3px;
+}
+.about__me{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    padding: 8em 0 18em 0;
+    width: 60%;
+}
+.about__me h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+.about__me h2{
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
