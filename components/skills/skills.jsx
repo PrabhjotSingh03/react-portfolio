@@ -54,9 +54,9 @@ function Skills() {
                     <svg className="tab__screen__svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1098.75" height="632.37039" viewBox="0 0 1098.75 632.37039">
                         <defs>
                             <linearGradient id="bd43dd7f-2dfd-4389-bf1e-697a1c0f972b" x1="891.82" y1="790.72" x2="891.82" y2="522.9" gradientUnits="userSpaceOnUse">
-                                <stop offset="0" stop-color="gray" stop-opacity="0.25"></stop>
-                                <stop offset="0.54" stop-color="gray" stop-opacity="0.12"></stop>
-                                <stop offset="1" stop-color="gray" stop-opacity="0.1"></stop>
+                                <stop offset="0" stopColor="gray" stopOpacity="0.25"></stop>
+                                <stop offset="0.54" stopColor="gray" stopOpacity="0.12"></stop>
+                                <stop offset="1" stopColor="gray" stopOpacity="0.1"></stop>
                             </linearGradient>
                         </defs>
                         <ellipse cx="843.39" cy="664.8" rx="192" ry="43" fill="#0E6BA8" opacity="0.1"></ellipse>
@@ -69,34 +69,35 @@ function Skills() {
                         <circle cx="278.76" cy="27.67" r="11.08" fill="#8ccf4d" opacity="0.8"></circle>
                         <rect x="457" y="170.7" width="70.01" height="33.22" rx="8.57" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="598.84" y="170.7" width="70.01" height="33.22" rx="8.57" fill="#0E6BA8" opacity="0.2"></rect>
-                        <polyline points="491.81 203.17 561.89 294.68 634.08 202.74" fill="none" stroke="#001C55" stroke-miterlimit="10"></polyline>
+                        <polyline points="491.81 203.17 561.89 294.68 634.08 202.74" fill="none" stroke="#001C55" strokeMiterlimit="10"></polyline>
                         <rect x="508.37" y="291.75" width="107.03" height="50.79" rx="8.57" opacity="0.1"></rect>
                         <rect x="510.55" y="292.79" width="102.68" height="48.73" rx="8.57" fill="#0E6BA8"></rect>
-                        <line x1="492.29" y1="170.7" x2="491.38" y2="138.35" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
-                        <polyline points="675.22 139.93 634.08 170.7 590.81 139.93" fill="none" stroke="#001C55" stroke-miterlimit="10"></polyline>
+                        <line x1="492.29" y1="170.7" x2="491.38" y2="138.35" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
+                        <polyline points="675.22 139.93 634.08 170.7 590.81 139.93" fill="none" stroke="#001C55" strokeMiterlimit="10"></polyline>
                         <rect x="456.61" y="106.7" width="70.01" height="33.22" rx="8.57" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="640.21" y="106.7" width="70.01" height="33.22" rx="8.57" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="555.81" y="106.7" width="70.01" height="33.22" rx="8.57" fill="#0E6BA8" opacity="0.2"></rect>
-                        <line x1="561.89" y1="341.51" x2="561.62" y2="430.01" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
-                        <path d="M609.53,558.59v0Z" transform="translate(-48.1 -96.1)" fill="none" stroke="#001C55" stroke-miterlimit="10"></path>
-                        <polyline points="462.42 493.11 561.42 462.48 660.82 492.89" fill="none" stroke="#001C55" stroke-miterlimit="10"></polyline>                            <rect x="526.62" y="430.01" width="70.01" height="33.22" rx="8.57" fill="#0E6BA8" opacity="0.2"></rect>
+                        <line x1="561.89" y1="341.51" x2="561.62" y2="430.01" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
+                        <path d="M609.53,558.59v0Z" transform="translate(-48.1 -96.1)" fill="none" stroke="#001C55" strokeMiterlimit="10"></path>
+                        <polyline points="462.42 493.11 561.42 462.48 660.82 492.89" fill="none" stroke="#001C55" strokeMiterlimit="10"></polyline>                            
+                        <rect x="526.62" y="430.01" width="70.01" height="33.22" rx="8.57" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="861.88" y="345.12" width="70.01" height="33.22" rx="8.57" transform="translate(1210.51 -631.25) rotate(90)" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="861.88" y="454.76" width="70.01" height="33.22" rx="8.57" transform="translate(377.41 1272.15) rotate(-90)" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="625.82" y="492.66" width="70.01" height="33.22" rx="8.57" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="475.52" y="588.76" width="70.01" height="33.22" rx="8.57" transform="translate(972.95 1114.65) rotate(-180)" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="576.46" y="588.76" width="70.01" height="33.22" rx="8.57" transform="translate(1174.83 1114.65) rotate(-180)" fill="#0E6BA8" opacity="0.2"></rect>
-                        <line x1="801" y1="320.45" x2="832.16" y2="374.94" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
-                        <line x1="735.11" y1="319.78" x2="767.82" y2="319.78" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
-                        <line x1="613.23" y1="317.15" x2="702.51" y2="319.78" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
-                        <line x1="832.16" y1="265.63" x2="801.15" y2="320.21" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
+                        <line x1="801" y1="320.45" x2="832.16" y2="374.94" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
+                        <line x1="735.11" y1="319.78" x2="767.82" y2="319.78" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
+                        <line x1="613.23" y1="317.15" x2="702.51" y2="319.78" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
+                        <line x1="832.16" y1="265.63" x2="801.15" y2="320.21" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
                         <rect x="732.22" y="399.07" width="70.01" height="33.22" rx="8.57" transform="translate(1134.8 -447.65) rotate(90)" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="797.48" y="399.94" width="70.01" height="33.22" rx="8.57" transform="translate(1200.94 -512.04) rotate(90)" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="288.1" y="345.12" width="70.01" height="33.22" rx="8.57" transform="translate(636.73 -57.48) rotate(90)" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="288.1" y="454.76" width="70.01" height="33.22" rx="8.57" transform="translate(-196.37 698.37) rotate(-90)" fill="#0E6BA8" opacity="0.2"></rect>
-                        <line x1="322.78" y1="320.45" x2="291.61" y2="374.94" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
-                        <line x1="388.66" y1="319.78" x2="355.96" y2="319.78" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
-                        <line x1="510.55" y1="317.15" x2="421.27" y2="319.78" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
-                        <line x1="291.61" y1="265.63" x2="322.62" y2="320.21" fill="none" stroke="#001C55" stroke-miterlimit="10"></line>
+                        <line x1="322.78" y1="320.45" x2="291.61" y2="374.94" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
+                        <line x1="388.66" y1="319.78" x2="355.96" y2="319.78" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
+                        <line x1="510.55" y1="317.15" x2="421.27" y2="319.78" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
+                        <line x1="291.61" y1="265.63" x2="322.62" y2="320.21" fill="none" stroke="#001C55" strokeMiterlimit="10"></line>
                         <rect x="417.76" y="399.07" width="70.01" height="33.22" rx="8.57" transform="translate(820.34 -133.18) rotate(90)" fill="#0E6BA8" opacity="0.2"></rect>
                         <rect x="352.49" y="399.94" width="70.01" height="33.22" rx="8.57" transform="translate(755.94 -67.05) rotate(90)" fill="#0E6BA8" opacity="0.2"></rect>
                         <path d="M156.12,598c0,50.24,31.52,90.9,70.47,90.9" transform="translate(-48.1 -96.1)" fill="#46455b"></path>

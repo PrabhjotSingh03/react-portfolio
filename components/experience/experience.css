@@ -1,0 +1,30 @@
+.experience__container{
+    background-color: #6E07F3;
+    margin-top: 3px;
+}
+.experience__head{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    padding: 8em 0 18em 0;
+    width: 60%;
+}
+.experience__head h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+.experience__head h2{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin: 26px 0 1px;
+}
+.experience__head h3{
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin:0;
+}

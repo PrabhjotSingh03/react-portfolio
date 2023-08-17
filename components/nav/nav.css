@@ -36,19 +36,16 @@
 }
 .main-menu li:nth-child(4) a{
     color: #6E07F3;
-}
-.main-menu li:nth-child(4){
     border: 2px solid #6E07F3;
     border-radius: 5px;
+    padding: 10px 20px;
 }
-.main-menu li:nth-child(4):hover{
-    background-color: #6E07F3;
-}
-.main-menu li:nth-child(4):hover a {
+.main-menu li:nth-child(4):hover a{
     color: #fff;
-    transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
     font-weight: 700;
+    background-color: #6E07F3;
 }
 .menu-toggle{
     display: none;

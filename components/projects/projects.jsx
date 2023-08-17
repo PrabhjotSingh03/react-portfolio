@@ -32,13 +32,16 @@ function Projects() {
                         <div className="project__details">
                             <h3 className="project__title">{project.title}</h3>
                             <p className="project__description">{project.description}</p>
-                            <p className="project__languages">Languages: {project.languages}</p>
+                            <p className="project__languages">{project.languages}</p>
                             <a className="project__link" href={project.link} target="_blank" rel="noopener noreferrer">
-                                View Project
+                                Visit Website
                             </a>
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className="more__projects">
+                <a href="https://github.com/PrabhjotSingh03">See More Projects</a>
             </div>
         </div>
     );
