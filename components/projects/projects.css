@@ -57,10 +57,7 @@
     transition: transform 500ms ease-in-out; */
 }
 @media (hover){
-    .project_details{
-        transform: translateY(65%);
-        transition: transform 500ms ease-in-out;
-    }
+   
     .project__details > *:not(.project__title){
         opacity: 0;
         transition: opacity 500ms linear;
@@ -78,6 +75,7 @@
     .project__card:focus-within .project__details{
         transition-duration: 0ms;
     }
+    
     .project__card:hover .project__details, 
     .project__card:focus-within .project__details{
         transform: scale(1.03) translateY(0);
@@ -85,6 +83,10 @@
     }
     .project__card:focus-within .project__details{
         transition-duration: 0ms;
+    }
+    .project_details{
+        transform: translateY(75%);
+        transition: transform 500ms ease-in-out;
     }
 }
 .project__title{

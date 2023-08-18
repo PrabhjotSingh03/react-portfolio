@@ -5,6 +5,8 @@ import About from '../components/about/about';
 import Skills from '../components/skills/skills';
 import Projects from '../components/projects/projects';
 import Experience from '../components/experience/experience';
+import Education from '../components/Education/education';
+import Footer from '../components/footer/footer';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
       <Skills />
       <Projects /> 
       <Experience />
+      <Education />
+      <Footer />
     </div>
   )
 }

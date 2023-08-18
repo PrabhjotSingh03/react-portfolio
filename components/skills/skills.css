@@ -2,23 +2,18 @@
     margin-top: -10rem;
 }
 .skills__container{
-    display: flex;
-    overflow: hidden;
     background-color: #ffffff;
     border-radius: 24px;
-    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #5be9b9;
     margin: 0 auto;
     max-width: 1180px;
     width: 90%;
-    padding: 3rem 0rem;
-}
-.skills__main__img{
-    flex: 1 1;
+    padding: 4rem 0rem;
 }
 .skills__data{
-    flex: 1 1;
     margin-top: 2rem;
     padding: 0rem 2rem;
+    text-align: center;
 }
 .skills__data h1{
     font-size: 2rem;
@@ -28,7 +23,7 @@
 .tab__screen__svg{
     max-width: 100%;
     height: auto;
-    margin-top: 8em;
+    margin-top: 14em;
 }
 .desk__screen__svg{
     max-width: 100%;
@@ -42,21 +37,33 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    padding: 3rem 3rem;
+    padding: 3rem 0;
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
 }
 .skills__title{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 2px;
+    justify-content: center;
 }
 .skills__title p{
     padding: 0;
     margin: 0;
 }
+.title-row{
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
 .title-row ul li p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: rgba(10, 10, 10, 0.9);
-    line-height: 1.5;
+    line-height: 1.3;
     font-weight: 500;
     word-break: break-word;
+}
+.title-row ul li{
+    padding: 0.3em 0;
 }
