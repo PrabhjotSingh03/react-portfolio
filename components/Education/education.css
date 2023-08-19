@@ -20,9 +20,7 @@
     height: auto;
 }
 .education__data{
-    flex: 1 1;
-    margin-top: 2rem;
-    padding: 2rem 0rem;
+    flex: 1 1 0;
     text-align: center;
 }
 .education__data h1, .degrees h1{

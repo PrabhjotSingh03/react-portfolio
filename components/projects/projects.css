@@ -53,8 +53,8 @@
     text-align: center;
     color: #fff;
     background: linear-gradient(hsl(0 0% 0% / 10%), hsl(20 0% 0% / 0.6) 40%, hsl(0 0% 0% / 0.8));
-    /* transform: translateY(65%);
-    transition: transform 500ms ease-in-out; */
+    transform: translateY(65%);
+    transition: transform 500ms ease-in-out;
 }
 @media (hover){
    
