@@ -29,22 +29,20 @@
     font-size: 18px;
     color: #141c3a;
 }
-.main-menu li:not(:nth-child(4)) a:hover {
-    font-weight: 700;
-    font-size: 20px;
+.main-menu li:not(:nth-child(6)) a:hover {
     transition: all .2s ease-in-out;
+    color: #6E07F3;
 }
-.main-menu li:nth-child(4) a{
+.main-menu li:nth-child(6) a{
     color: #6E07F3;
     border: 2px solid #6E07F3;
     border-radius: 5px;
     padding: 10px 20px;
 }
-.main-menu li:nth-child(4):hover a{
+.main-menu li:nth-child(6):hover a{
     color: #fff;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    font-weight: 700;
     background-color: #6E07F3;
 }
 .menu-toggle{
@@ -65,6 +63,12 @@
 .menu-toggle.open .bar:nth-child(3) {
     transform: translateY(-6px) rotate(-45deg);
 }
+.menu-toggle.open .bar:nth-child(4) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+.menu-toggle.open .bar:nth-child(5) {
+    transform: translateY(-6px) rotate(-45deg);
+}
 .bar{
     width: 25px;
     height: 3px;
@@ -76,12 +80,15 @@
     background-color:#6E07F3;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .main-menu {
         display: none;
     }
     .menu-toggle {
         display: flex;
+    }
+    .main-menu li:nth-child(6) {
+        padding: 15px 15px 25px 15px;
     }
     .navbar.menu-open .main-menu {
         flex-direction: column;

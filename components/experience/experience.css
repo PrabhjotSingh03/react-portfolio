@@ -81,9 +81,8 @@
     font-size: 1.1em;
 }
 .experience__company__title a:hover{
-    font-weight: 700;
     transition: all .3s ease-in-out;
-    font-size: 1.01em;
+    color:#6E07F3;
 }
 .company__title__container{
     display: flex;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-scroll';
 import './nav.css';
 
 function Nav() {
@@ -20,10 +21,12 @@ function Nav() {
                     <div className="bar"></div>
                 </div>
                 <ul className={`main-menu ${menuOpen ? 'open' : ''}`}>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link activeClass="active" to="navbar-container" spy={true} smooth={true}>Home</Link></li>
+                    <li><Link activeClass="active" to="about__me__container" spy={true} smooth={true} duration={2000}>About</Link></li>
+                    <li><Link activeClass="active" to="projects__main__container" spy={true} smooth={true} duration={5000}>Projects</Link></li>
+                    <li><Link activeClass="active" to="experience__card" spy={true} smooth={true} duration={5000}>Experience</Link></li>
+                    <li><Link activeClass="active" to="education" spy={true} smooth={true} duration={6000}>Education</Link></li>
+                    <li><Link activeClass="active" to="footer" spy={true} smooth={true} duration={6000}>Contact</Link></li>
                 </ul>
             </div>
         </div>

@@ -92,9 +92,8 @@
     font-size: 1.1em;
 }
 .education__college__title a:hover{
-    font-weight: 700;
     transition: all .3s ease-in-out;
-    font-size: 1.01em;
+    color:#6E07F3;
 }
 .college__title__container{
     display: flex;
