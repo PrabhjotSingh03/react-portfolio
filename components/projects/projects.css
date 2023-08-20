@@ -49,7 +49,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: 10px 50px;
+    padding: 45px 50px 20px;
     text-align: center;
     color: #fff;
     background: linear-gradient(hsl(0 0% 0% / 10%), hsl(20 0% 0% / 0.6) 40%, hsl(0 0% 0% / 0.8));
@@ -91,24 +91,28 @@
 }
 .project__title{
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 1.4em;
+    margin: 0;
     text-shadow:
     3px 1px 2px #000000,
     3px 4px 1px #000000;
     transition: all 0.8s ease-in-out;
     transition-delay: 300ms;
+    padding-bottom: 10px;
 }
 .project__description{
     font-weight: 500;
     font-size: 1.1em;
     transition: all 0.3s ease-in-out;
     transition-delay: 400ms;
+    padding-bottom: 10px;
 }
 .project__languages{
     font-weight: 400;
     font-size: 0.9em;
     transition: all 0.3s ease-in-out;
     transition-delay: 700ms;
+    padding-bottom: 10px;
 }
 .project__link{
     border: 2px solid #6E07F3;
