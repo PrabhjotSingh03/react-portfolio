@@ -43,9 +43,6 @@ flex: 1 1 0;
 .let__do__this{
     flex: 1 1 0;
 }
-.let__do__this a{
-    color: #fff;
-}
 .start__project h2{
     padding: 0;
     margin: 0;
@@ -58,4 +55,25 @@ flex: 1 1 0;
     font-size: 18px;
     font-weight: 400;
     padding: 0 1em;
+}
+.let__do__this{
+    text-align: center;
+}
+.let__do__this a{
+    border: 2px solid #5be9b9;
+    border-radius: 30px;
+    padding: 14px 46px;
+    color: #fff;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.let__do__this a:hover,
+.let__do__this a:focus{
+    background-color: #5be9b9;
+    color: #141c3a;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    font-size: 1.21em;
 }
