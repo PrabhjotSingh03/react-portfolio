@@ -32,7 +32,7 @@
     display: flex;
     flex-flow: row wrap;
     flex-direction: row;
-    padding: 3rem 5rem;
+    padding: 3rem 0.5rem;
     align-items: center;
     text-align: center;
     color: #fff;
@@ -49,7 +49,7 @@
 .start__project h2{
     padding: 0;
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 .interested h3{
@@ -128,4 +128,29 @@
     opacity: 0.8;
     font-size: 0.7em;
     font-weight: 300;
+}
+@media (max-width: 800px) {
+    .start__project__content{
+        gap: 2em;
+    }
+    .start__project{
+        flex: 1 1 100%;
+    }
+}
+@media (max-width: 630px) {
+    .start__project__content{
+        gap: 2em;
+    }
+    .start__project{
+        flex: 1 1 100%;
+    }
+    .interested{
+        flex: 2 1 100%;
+    }
+    .let__do__this{
+        flex: 1 1 100%;
+    }
+    .footer__icon{
+        padding-top: 10em;
+    }
 }

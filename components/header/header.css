@@ -2,6 +2,9 @@
     text-align: center;
     color: #141c3a;
     padding-top: 1.5rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    width:  90%
 }
 .header-title h1{
     font-size: 3rem;
@@ -68,4 +71,9 @@
     max-width: 860px;
     width: 90%;
     height: auto;
+}
+@media (max-width: 480px) {
+    .header-title h1{
+        font-size: 2.5rem;
+    }
 }

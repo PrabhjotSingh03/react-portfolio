@@ -99,3 +99,17 @@
     font-size: 1em;
     font-weight: 600; 
 }
+@media (max-width: 1024px) {
+    .company__title__container{
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    .experience__card__container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .experience__details{
+        text-align: center;
+    }
+}

@@ -107,3 +107,31 @@
     font-size: 1em;
     font-weight: 600; 
 }
+@media (max-width: 800px) {
+    .education__data{
+        margin-top: -3em;
+    }
+}
+@media (max-width: 630px) {
+    .education__container{
+        flex-direction: column;
+    }
+    .education__screen__svg{
+        max-width: 40%;
+        height: auto;
+    }
+}
+@media (max-width: 1024px) {
+    .college__title__container{
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    .education__card__container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .education__details{
+        text-align: center;
+    }
+}
