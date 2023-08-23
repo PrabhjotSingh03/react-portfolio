@@ -58,7 +58,7 @@
     margin: 0 auto;
     width: 100%;
 }
-@media (hover){
+@media (hover:hover){
    
     .project__details > *:not(.project__title){
         opacity: 0;
