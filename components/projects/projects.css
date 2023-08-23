@@ -47,7 +47,7 @@
     padding: 45px 0px 20px 0px;
     text-align: center;
     color: #fff;
-    background: linear-gradient(hsl(0 0% 0% / 10%), hsl(20 0% 0% / 0.6) 40%, hsl(0 0% 0% / 0.8));
+    background: linear-gradient(hsl(0 0% 0% / 10%), hsl(20 0% 0% / 0.8) 20%, hsl(0 0% 0% / 0.9));
 }
 @media (hover: hover){
     .project__card{
