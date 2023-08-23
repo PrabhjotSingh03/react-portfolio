@@ -22,3 +22,8 @@
     font-weight: 400;
     font-size: 1.25rem;
 }
+@media (max-width: 500px) {
+    .about__me{
+        width: 90%;
+    }
+}

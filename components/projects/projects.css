@@ -34,17 +34,17 @@
     overflow: hidden;
     position:relative;
     border-radius: 15px;
-    transition: transform 500ms ease-in-out;
+    /* transition: transform 500ms ease-in-out; */
 }
 .project__image{
     width: 100%;
     height: 255px;
     object-fit: cover;
 }
-.project__card img{
+/* .project__card img{
     transform: scale(1.3);
     transition: transform 500ms ease-in-out;
-}
+} */
 .project__details{
     position: absolute;
     left: 0;
@@ -53,13 +53,19 @@
     text-align: center;
     color: #fff;
     background: linear-gradient(hsl(0 0% 0% / 10%), hsl(20 0% 0% / 0.6) 40%, hsl(0 0% 0% / 0.8));
-    transform: translateY(65%);
-    transition: transform 500ms ease-in-out;
     margin: 0 auto;
     width: 100%;
+    /* transform: translateY(65%);
+    transition: transform 500ms ease-in-out; */
 }
-@media (hover:hover){
-   
+@media (hover: hover){
+    .project__card{
+        transition: transform 500ms ease-in-out;
+    }
+    .project__card img{
+        transform: scale(1.3);
+        transition: transform 500ms ease-in-out;
+    }
     .project__details > *:not(.project__title){
         opacity: 0;
         transition: opacity 500ms linear;
@@ -67,7 +73,7 @@
     .project__card:hover .project__details > *:not(.project__title),
     .project__card:focus-within .project__details > *:not(.project__title){
         opacity: 1;
-        transition-delay: 200ms;
+        transition-delay: 500ms;
     }
     .project__card:hover img,
     .project__card:focus-within img{
@@ -80,14 +86,14 @@
     
     .project__card:hover .project__details, 
     .project__card:focus-within .project__details{
-        transform: scale(1.03) translateY(0);
-        transition: transform 300ms ease-in-out;
+        transform: translateY(0);
+        transition: transform 500ms ease-in-out;
     }
     .project__card:focus-within .project__details{
         transition-duration: 0ms;
     }
     .project_details{
-        transform: translateY(75%);
+        transform: translateY(65%);
         transition: transform 500ms ease-in-out;
     }
 }
@@ -98,25 +104,25 @@
     text-shadow:
     3px 1px 2px #000000,
     3px 4px 1px #000000;
+    padding-bottom: 10px;
     transition: all 0.8s ease-in-out;
     transition-delay: 300ms;
-    padding-bottom: 10px;
 }
 .project__description{
     font-weight: 500;
     font-size: 1.1em;
-    transition: all 0.3s ease-in-out;
-    transition-delay: 400ms;
     padding-bottom: 10px;
     width: 90%;
     margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+    transition-delay: 400ms;
 }
 .project__languages{
     font-weight: 400;
     font-size: 0.9em;
+    padding-bottom: 10px;
     transition: all 0.3s ease-in-out;
     transition-delay: 700ms;
-    padding-bottom: 10px;
 }
 .project__link{
     border: 2px solid #6E07F3;
