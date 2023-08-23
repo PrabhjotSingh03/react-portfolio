@@ -7,7 +7,7 @@ function Projects() {
     const [projectsData, setprojectsData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://3.211.231.77/api/data')
+        axios.get('https://cyberprabhjot.co.in/api/data')
             .then(response => {
                 setprojectsData(response.data);
             })
