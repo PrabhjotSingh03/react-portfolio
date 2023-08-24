@@ -8,7 +8,8 @@ function Experience() {
     useEffect(() => {
         axios.get('https://cyberprabhjot.co.in/api/data')
             .then(response => {
-                setexperienceData(response.data);
+                const reversedData = response.data.reverse();
+                setexperienceData(reversedData);
             })
             .catch(error => {
                 console.error('Error fetching skills:', error);
@@ -31,28 +32,28 @@ function Experience() {
                     {experienceInCategory.map(experience => (
                         <div className="experience__card__container" key={experience._id.$oid}>
                             <div className='experience__image__container'>
-                                <img className="experience__image" src={experience.image} alt={experience.company__name} />
+                                <img className="experience__image" src={experience.image} alt={experience.title} />
                             </div>
                             <div className="experience__details">
                                 <div className='company__title__container'>
                                     <div className='position__title__container'>
-                                        <h3 className="experience__position__title">{experience.position_title}</h3>
+                                        <h3 className="experience__position__title">{experience.position}</h3>
                                     </div>
                                     <div  className='position__work__time'>
-                                        <h4 className="experience__work__time">{experience.work__time}</h4>
+                                        <h4 className="experience__work__time">{experience.time}</h4>
                                     </div>
                                 </div>
                                 <div className='company__title__container'>
                                     <div className='position__title__container'>
                                         <h4 className="experience__company__title">
-                                            <a href='{experience.company__link}'>{experience.company__name}</a>
+                                            <a href={experience.link}>{experience.title}</a>
                                         </h4>
                                     </div>
                                     <div  className='position__work__time'>
-                                        <h4>{experience.company__address}</h4>
+                                        <h4>{experience.address}</h4>
                                     </div>
                                 </div>
-                                <p className="experience__position__description">{experience.position__description}</p>
+                                <p className="experience__position__description">{experience.description}</p>
                             </div>
                         </div>
                     ))}

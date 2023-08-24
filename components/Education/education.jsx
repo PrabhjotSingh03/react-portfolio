@@ -1,6 +1,23 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import './education.css';
 
 function Education() {
+    const [educationData, seteducationData] = useState([]);
+
+    useEffect(() => {
+        axios.get('https://cyberprabhjot.co.in/api/data')
+            .then(response => {
+                const reversedData = response.data.reverse();
+                seteducationData(reversedData);
+            })
+            .catch(error => {
+                console.error('Error fetching skills:', error);
+            });
+    }, []);
+
+    const educationInCategory = educationData.filter(item => item.category === 'education');
+
     return (
         <div className="education">
             <div className='education__main'>
@@ -64,61 +81,34 @@ function Education() {
             </div>
             <div className="education__container__main">
                 <div className="education__card__main">
-                    <div className="education__card__container">
-                        <div className='education__image__container'>
-                            <img className='education__image' src='/images/education/humber.png' alt=''/>
-                        </div>
-                        <div className="education__details">
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h3 className="education__position__title">Post Graduation in Web Development</h3>
-                                </div>
-                                <div  className='degree__work__time'>
-                                    <h4 className="education__work__time">January 2023 - Present</h4>
-                                </div>
+                    {educationInCategory.map(education => (
+                        <div className="education__card__container" key={education._id.$oid}>
+                            <div className='education__image__container'>
+                                <img className='education__image' src={education.image} alt={education.title} />
                             </div>
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h4 className="education__college__title">
-                                        <a href='https://humber.ca/'>Humber College</a>
-                                    </h4>
+                            <div className="education__details">
+                                <div className='college__title__container'>
+                                    <div className='education__title__container'>
+                                        <h3 className="education__position__title">{education.position}</h3>
+                                    </div>
+                                    <div  className='degree__work__time'>
+                                        <h4 className="education__work__time">{education.time}</h4>
+                                    </div>
                                 </div>
-                                <div  className='college__location'>
-                                    <h4>Toronto, Ontario, Canada</h4>
+                                <div className='college__title__container'>
+                                    <div className='education__title__container'>
+                                        <h4 className="education__college__title">
+                                            <a href={education.link}>{education.title}</a>
+                                        </h4>
+                                    </div>
+                                    <div  className='college__location'>
+                                        <h4>{education.address}</h4>
+                                    </div>
                                 </div>
+                                    <p className="education__position__description">{education.description}</p>
                             </div>
-                                <p className="education__position__description">An aspiring Full stack web developer with a passion for crafting seamless digital experiences. Beyond coding, I thrive on community involvement, actively engaging with open-source projects and event organization. My goal is to craft exceptional web applications that merge functionality with creativity, pushing the boundaries of what technology can achieve.</p>
                         </div>
-                    </div>
-                </div>
-
-                <div className="education__card__main">
-                    <div className="education__card__container">
-                        <div className='education__image__container'>
-                            <img className='education__image' src='/images/education/buest.png' alt=''/>
-                        </div>
-                        <div className="education__details">
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h3 className="education__position__title">Bachelors of Technology in Computer Science and Engineering</h3>
-                                </div>
-                                <div  className='degree__work__time'>
-                                    <h4 className="education__work__time">July 2013 - May 2017</h4>
-                                </div>
-                            </div>
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h4 className="education__college__title">
-                                        <a href='https://www.baddiuniv.ac.in/'>Baddi University of Emerging Sciences and Technology</a>
-                                    </h4>
-                                </div>
-                                <div  className='college__location'>
-                                    <h4>Baddi, HP, India</h4>
-                                </div>
-                            </div>
-                                <p className="education__position__description">An aspiring Full stack web developer with a passion for crafting seamless digital experiences. Beyond coding, I thrive on community involvement, actively engaging with open-source projects and event organization. My goal is to craft exceptional web applications that merge functionality with creativity, pushing the boundaries of what technology can achieve.</p>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>
