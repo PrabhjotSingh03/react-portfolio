@@ -63,7 +63,6 @@ function Education() {
                 </div>
             </div>
             <div className="education__container__main">
-                <div className="degrees"><h1>Degrees Received</h1></div>
                 <div className="education__card__main">
                     <div className="education__card__container">
                         <div className='education__image__container'>
