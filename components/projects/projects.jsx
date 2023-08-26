@@ -9,7 +9,8 @@ function Projects() {
     useEffect(() => {
         axios.get('https://cyberprabhjot.co.in/api/data')
             .then(response => {
-                setprojectsData(response.data);
+                const reversedData = response.data.reverse();
+                setprojectsData(reversedData);
             })
             .catch(error => {
                 console.error('Error fetching skills:', error);
