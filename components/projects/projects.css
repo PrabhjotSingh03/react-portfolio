@@ -77,8 +77,8 @@
     }
     .project__card:hover .project__details, 
     .project__card:focus-within .project__details{
-        transform: translateY(0);
-        transition: transform 500ms ease-in-out;
+        transform: translateY(20%);
+        transition: transform 400ms ease-in-out;
     }
     .project__card:focus-within .project__details{
         transition-duration: 0ms;
@@ -86,8 +86,9 @@
     .project__details{
         margin: 0 auto;
         width: 100%;
-        transform: translateY(65%);
+        transform: translateY(75%);
         transition: transform 500ms ease-in-out;
+        height: 100%;
     }
 }
 .project__title{
@@ -127,13 +128,14 @@
     display: inline-block;
     transition: all 0.3s ease-out;
     cursor: pointer;
+    margin-top: 6%;
 }
 .project__link:hover,
 .project__link:focus{
     background-color: #6E07F3;
     color: #fff;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all 0.01s ease-in-out;
+    transition: all 0.01s ease-in-out;
     font-weight: 700;
 }
 @media (prefers-reduced-motion: reduce){
