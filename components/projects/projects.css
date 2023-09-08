@@ -49,6 +49,7 @@
     text-align: center;
     color: #fff;
     background: linear-gradient(hsl(0 0% 0% / 10%), hsl(20 0% 0% / 0.8) 20%, hsl(0 0% 0% / 0.9));
+    width: 100%;
 }
 @media (hover: hover){
     .project__card{
