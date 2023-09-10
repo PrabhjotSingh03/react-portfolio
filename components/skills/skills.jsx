@@ -26,7 +26,7 @@ function Skills() {
                     <div className="skills-container">
                         <div className="icons-row">
                             {skillsInCategory.map(skill => (
-                                <div key={skill._id.$oid} dangerouslySetInnerHTML={{ __html: skill.icon }} />
+                                <div className="icon" key={skill._id.$oid} dangerouslySetInnerHTML={{ __html: skill.icon }} />
                             ))}
                         </div>
                         <div className="title-row">
