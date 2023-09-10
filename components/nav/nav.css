@@ -24,22 +24,22 @@
 .main-menu li{
     padding: 15px;
 }
-.main-menu li Link{
+.main-menu li a{
     font-weight: 600;
     font-size: 18px;
     color: #141c3a;
 }
-.main-menu li:not(:nth-child(6)) Link:hover {
+.main-menu li:not(:nth-child(6)) a:hover {
     transition: all .2s ease-in-out;
     color: #6E07F3;
 }
-.main-menu li:nth-child(6) Link{
+.main-menu li:nth-child(6) a{
     color: #6E07F3;
     border: 2px solid #6E07F3;
     border-radius: 5px;
     padding: 10px 20px;
 }
-.main-menu li:nth-child(6):hover Link{
+.main-menu li:nth-child(6):hover a{
     color: #fff;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
