@@ -104,7 +104,7 @@
         display: flex;
     }
     @keyframes slideIn{
-        0% {
+        10% {
             transform: translateX(100%);
         }
         100% {
