@@ -67,3 +67,6 @@
 .title-row ul li{
     padding: 0.5em 0;
 }
+div:empty {
+    display: none;
+}
