@@ -32,7 +32,6 @@
     margin-top: -10rem;
 }
 .experience__card__main{
-    display: flex;
     overflow: hidden;
     background-color: #ffffff;
     border-radius: 14px;
