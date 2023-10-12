@@ -39,7 +39,7 @@
     margin: 0 auto;
     max-width: 1180px;
     width: 90%;
-    padding: 6rem 0rem;
+    padding: 4rem 0rem 1rem;
 }
 .experience__card__container{
     display: flex;
@@ -48,7 +48,7 @@
     max-width: 1200px;
     width: 90%;
     gap: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
     border: 1px solid #ff1b6b;
     color: #141c3a; 
