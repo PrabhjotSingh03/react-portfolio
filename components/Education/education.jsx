@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+// import React, { useState, useEffect } from 'react';
+// import axios from 'axios';
 import './education.css';
 
 function Education() {
-    const [educationData, seteducationData] = useState([]);
+    // const [educationData, seteducationData] = useState([]);
 
-    useEffect(() => {
-        axios.get('https://cyberprabhjot.co.in/api/data')
-            .then(response => {
-                const reversedData = response.data.reverse();
-                seteducationData(reversedData);
-            })
-            .catch(error => {
-                console.error('Error fetching skills:', error);
-            });
-    }, []);
+    // useEffect(() => {
+    //     axios.get('https://cyberprabhjot.co.in/api/data')
+    //         .then(response => {
+    //             const reversedData = response.data.reverse();
+    //             seteducationData(reversedData);
+    //         })
+    //         .catch(error => {
+    //             console.error('Error fetching skills:', error);
+    //         });
+    // }, []);
 
-    const educationInCategory = educationData.filter(item => item.category === 'education');
+    // const educationInCategory = educationData.filter(item => item.category === 'education');
 
     return (
         <div className="education">
@@ -44,7 +44,7 @@ function Education() {
                             <rect x="428.83545" y="518.70387" width="24.56633" height="70.18951" transform="translate(89.80867 -301.33512) rotate(26.38921)" opacity="0.05"></rect>
                             <rect x="430.59019" y="518.70387" width="21.05685" height="70.18951" transform="translate(89.80867 -301.33512) rotate(26.38921)" fill="#f55f44"></rect>
                             <circle cx="261.30557" cy="563.92499" r="2.92569" fill="#dbdbdb"></circle><g opacity="0.5"><rect x="29.39431" y="482" width="3" height="17" fill="#47e6b1"></rect>
-                            <rect x="231.69716" y="644.98099" width="3" height="17" transform="translate(684.3753 257.30284) rotate(90)" fill="#47e6b1"></rect></g>
+                                <rect x="231.69716" y="644.98099" width="3" height="17" transform="translate(684.3753 257.30284) rotate(90)" fill="#47e6b1"></rect></g>
                             <g opacity="0.5">
                                 <rect x="785.39431" y="270" width="3" height="17" fill="#47e6b1"></rect>
                                 <rect x="987.69716" y="432.98099" width="3" height="17" transform="translate(1228.3753 -710.69716) rotate(90)" fill="#47e6b1"></rect>
@@ -79,7 +79,7 @@ function Education() {
                     </div>
                 </div>
             </div>
-            <div className="education__container__main">
+            {/* <div className="education__container__main">
                 <div className="education__card__main">
                     {educationInCategory.map(education => (
                         <div className="education__card__container" key={education._id.$oid}>
@@ -109,6 +109,97 @@ function Education() {
                             </div>
                         </div>
                     ))}
+                </div>
+            </div> */}
+            <div className="education__container__main">
+                <div className="education__card__main">
+                    <div className="education__card__container">
+                        <div className='education__image__container'>
+                            <img className='education__image' src='https://ccr.uofgh-humber.ca/content/documents/Image/CCR-signature.png' alt='Humber College CCR Logo' />
+                        </div>
+                        <div className="education__details">
+                            <div className='college__title__container'>
+                                <div className='education__title__container'>
+                                    <h3 className="education__position__title">Making Accessible Media</h3>
+                                </div>
+                                <div className='degree__work__time'>
+                                    <h4 className="education__work__time">May 28, 2023</h4>
+                                </div>
+                            </div>
+                            <div className='college__title__container'>
+                                <div className='education__title__container'>
+                                    <h4 className="education__college__title">
+                                        <a href='https://humber.ca/'>Humber College</a>
+                                    </h4>
+                                </div>
+                                <div className='college__location'>
+                                    <h4>Toronto, Ontario, Canada</h4>
+                                </div>
+                            </div>
+                            <p className="education__position__description">An open access online course that aims to educate individuals on seamlessly integrating accessibility features into media content. The course is meticulously crafted to instill the principle that accessibility must be seamlessly woven into the fabric of the initial development process, rather than treated as an add-on. It significantly emphasizes cultivating an acute understanding of the various barriers—systemic, attitudinal, physical, informational, and technological—that often hinder accessibility within contemporary artistic and media endeavors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="education__container__main">
+                <div className="education__card__main">
+                    <div className="education__card__container">
+                        <div className='education__image__container'>
+                            <img className='education__image' src='/images/education/humber.png' alt='Humber College Logo' />
+                        </div>
+                        <div className="education__details">
+                            <div className='college__title__container'>
+                                <div className='education__title__container'>
+                                    <h3 className="education__position__title">Post Graduation/Graduate Certificate in Web Development</h3>
+                                </div>
+                                <div className='degree__work__time'>
+                                    <h4 className="education__work__time">January 2023 - Present</h4>
+                                </div>
+                            </div>
+                            <div className='college__title__container'>
+                                <div className='education__title__container'>
+                                    <h4 className="education__college__title">
+                                        <a href='https://humber.ca/'>Humber College</a>
+                                    </h4>
+                                </div>
+                                <div className='college__location'>
+                                    <h4>Toronto, Ontario, Canada</h4>
+                                </div>
+                            </div>
+                            <p className="education__position__description">Humber&apos;s Web Development graduate certificate program provided an immersive learning experience in the realm of website and web service development across various platforms. Through the curriculum, I gained expertise in database-driven programming, content management systems, and mobile services. The program offered a balanced blend of theoretical insights and hands-on training,  individual and team-based projects, mirroring real-world professional dynamics and fostering the cultivation of my collaborative and teamwork proficiencies, equipping me to meticulously strategize, craft, and implement impactful website designs and functionalities. The program uniquely positioned me to tackle the challenge of developing websites aligning with stringent business and developmental prerequisites.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="education__container__main">
+                <div className="education__card__main">
+                    <div className="education__card__container">
+                        <div className='education__image__container'>
+                            <img className='education__image' src='/images/education/buest.png' alt='Baddi University of Emerging Sciences and Technology Logo' />
+                        </div>
+                        <div className="education__details">
+                            <div className='college__title__container'>
+                                <div className='education__title__container'>
+                                    <h3 className="education__position__title">Bachelor of Technology in Computer Science and Engineering</h3>
+                                </div>
+                                <div className='degree__work__time'>
+                                    <h4 className="education__work__time">July 2013 - May 2017</h4>
+                                </div>
+                            </div>
+                            <div className='college__title__container'>
+                                <div className='education__title__container'>
+                                    <h4 className="education__college__title">
+                                        <a href='https://www.baddiuniv.ac.in/'>Baddi University of Emerging Sciences and Technology</a>
+                                    </h4>
+                                </div>
+                                <div className='college__location'>
+                                    <h4>Baddi, Himachal Pardesh, India</h4>
+                                </div>
+                            </div>
+                            <p className="education__position__description">Enrolled in a Bachelor of Technology in Computer Science and Engineering, I&apos;ve immersed myself in a comprehensive program at the intersection of technology and innovation. This degree has provided a balanced blend of theoretical knowledge and hands-on experience, enabling me to develop advanced solutions for complex challenges.
+                                Throughout my academic journey, I&apos;ve gained expertise in algorithmic design, software development, hardware systems, and data management. The program&apos;s collaborative projects, both individual and team-based, have honed my teamwork and problem-solving skills in real-world scenarios.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
