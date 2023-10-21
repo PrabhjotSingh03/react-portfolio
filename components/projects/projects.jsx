@@ -59,7 +59,7 @@ function Projects() {
                         <h3 className="project__title">TravelCast</h3>
                         <p className="project__description">Unveil Dream Destination & Forecast the Weather</p>
                         <p className="project__languages">NodeJS, JS, Pug, ExpressJS, Google Places API, OpenweatherAPI</p>
-                        <a className="project__link" href='http://ec2-52-54-45-206.compute-1.amazonaws.com:5992/' target="_blank" rel="noopener noreferrer">
+                        <a className="project__link" href='https://travelcast.onrender.com/' target="_blank" rel="noopener noreferrer">
                             Visit Website
                         </a>
                     </div>
