@@ -46,8 +46,8 @@ function Projects() {
                     <img className="project__image" src='/images/projects/urbanclothingv1.png' alt='Urban Clothing' />
                     <div className="project__details">
                         <h3 className="project__title">Urban Clothing</h3>
-                        <p className="project__description">An E-Commerce clothing website for shopaholics. Still Under Development</p>
-                        <p className="project__languages">MERN Stack, Redux, Stripe</p>
+                        <p className="project__description">An E-Commerce clothing website for shopaholics.</p>
+                        <p className="project__languages">MERN Stack, Redux, Stripe Tailwind CSS</p>
                         <a className="project__link" href='https://urbanclothing.vercel.app/' target="_blank" rel="noopener noreferrer">
                             Visit Website
                         </a>
