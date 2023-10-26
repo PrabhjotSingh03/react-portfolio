@@ -1,29 +1,93 @@
-.about__me__container{
-    background-color: #6E07F3;
-    margin-top: 3px;
+.aboutAndSkillsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 2px;
 }
-.about__me{
-    max-width: 1000px;
-    text-align: center;
+
+.about__me__main {
+    background-color: #6E07F3;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #6E07F3;
     margin: 0 auto;
     color: #fff;
-    padding: 8em 0 18em 0;
-    width: 60%;
+    width: 50%;
+    flex: 1 0 0;
 }
-.about__me h1{
+
+.about__me {
+    padding: 5em 6em 5em 5em;
+}
+
+.about__me h1 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     margin: 0;
-    padding: 0;
 }
-.about__me h2{
+
+.about__me h2 {
     line-height: 1.5;
     font-weight: 400;
     font-size: 1.25rem;
+    padding: 1rem 0;
 }
-@media (max-width: 500px) {
-    .about__me{
+
+.skills__main__container {
+    background-color: #ffffff;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #5be9b9;
+    margin: 0 auto;
+    width: 100%;
+    flex: 1 0 0;
+}
+.skills__container {
+    padding: 5em 6em 5em 4em;
+}
+
+.skills__data h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #141c3a;
+    margin: 0;
+}
+
+.icons-row {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 2rem 0;
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .about__me__main {
+        flex: 1 0 100%;
+        text-align: center;
+    }
+    .skills__main__container {
+        margin: 0 auto;
+        max-width: 500px;
         width: 90%;
+        text-align: center;
+        margin-top: -70px;
+        border-radius: 10px;
+    }
+    .skills__container {
+        padding: 2em 0em 0em 0em;
     }
 }
+@media (max-width: 520px) {
+    .skills__main__container {
+        margin: 0 auto;
+        max-width: 380px;
+        width: 90%;
+        text-align: center;
+        margin-top: -70px;
+        border-radius: 10px;
+    }
+}
+
