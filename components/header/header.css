@@ -1,34 +1,44 @@
-.header-container{
+.header {
+    background:linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)),
+    url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+}
+
+.header-container {
     text-align: center;
     color: #141c3a;
     padding-top: 1.5rem;
     margin: 0 auto;
     max-width: 1200px;
-    width:  90%
+    width: 90%
 }
-.header-title h1{
+
+.header-title h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
-.header-subtitle h2{
+
+.header-subtitle h2 {
     font-size: 1.3rem;
     color: rgba(10, 10, 10, 0.9);
     line-height: 1.5;
     font-weight: 500;
     word-break: break-word;
 }
-.person img{
+
+.person img {
     max-width: 110%;
     display: block;
 }
-.person{
-    --transform-speed: 450ms ;
+
+.person {
+    --transform-speed: 450ms;
     position: relative;
     max-width: 15rem;
     margin-inline: auto;
 }
-.person__container{
+
+.person__container {
     aspect-ratio: 1/1.3;
     display: grid;
     align-items: end;
@@ -36,7 +46,8 @@
     overflow: hidden;
     transition: transform var(--transform-speed) ease;
 }
-.person__circle{
+
+.person__circle {
     position: absolute;
     aspect-ratio: 1/1;
     width: 100%;
@@ -46,7 +57,8 @@
     object-fit: cover;
     background-color: #6E07F3;
 }
-.person__img{
+
+.person__img {
     position: relative;
     z-index: 2;
     left: -0.2rem;
@@ -54,26 +66,30 @@
     transform: scale(1.4);
     transition: transform calc(var(--transform-speed) * 1.2)ease;
 }
-.person__container:hover .person__img{
-    transform: 
-        scale(1.4)
-        translateY(-1rem);
+
+.person__container:hover .person__img {
+    transform:
+        scale(1.4) translateY(-1rem);
 }
-.person__container:hover{
+
+.person__container:hover {
     transform: scale(1.1);
     transition: transform calc(var(--transform-speed) * 1.7)ease;
 }
-.devices__container{
+
+.devices__container {
     padding-top: 4rem;
 }
-.devices__container img{
+
+.devices__container img {
     margin-bottom: -0.45rem;
     max-width: 860px;
     width: 90%;
     height: auto;
 }
+
 @media (max-width: 480px) {
-    .header-title h1{
+    .header-title h1 {
         font-size: 2.5rem;
     }
 }
