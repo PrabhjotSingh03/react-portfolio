@@ -68,6 +68,9 @@
         flex: 1 0 100%;
         text-align: center;
     }
+    .about__me {
+        padding: 5em 2em 5em 2em;
+    }
     .skills__main__container {
         margin: 0 auto;
         max-width: 500px;
@@ -81,6 +84,9 @@
     }
 }
 @media (max-width: 520px) {
+    .about__me {
+        padding: 5em 2em 5em 2em;
+    }
     .skills__main__container {
         margin: 0 auto;
         max-width: 380px;
