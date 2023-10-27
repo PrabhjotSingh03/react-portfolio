@@ -87,6 +87,9 @@
     .about__me {
         padding: 5em 2em 5em 2em;
     }
+    .about__me h1 {
+        margin: 0;
+    }
     .skills__main__container {
         margin: 0 auto;
         max-width: 380px;

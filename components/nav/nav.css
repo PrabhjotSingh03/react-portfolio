@@ -1,5 +1,5 @@
 .navbar{
-    padding: 0.5rem 0;
+    padding: 0.3rem 0;
     box-shadow: none;
     max-width: 1300px;
     width: 90%;
@@ -12,13 +12,14 @@
     align-items: center;
 }
 .main-icon img{
-    width: 90px;
+    width: 80px;
     height: auto;
 }
 .main-menu{
     display: flex;
     z-index: 2;
     padding: 0;
+    margin: 0;
     font-size: 16px;
     transition: transform 0.4s ease-in-out
 }

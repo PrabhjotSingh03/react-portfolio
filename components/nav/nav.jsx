@@ -22,7 +22,7 @@ function Nav() {
                 </div>
                 <ul className={`main-menu ${menuOpen ? 'open' : ''}`}>
                     <li><Link tabindex="1" activeClass="active" to="navbar-container" spy={true} smooth={true}>Home</Link></li>
-                    <li><Link tabindex="2" activeClass="active" to="about__me__container" spy={true} smooth={true} duration={2000}>About</Link></li>
+                    <li><Link tabindex="2" activeClass="active" to="aboutAndSkillsContainer" spy={true} smooth={true} duration={2000}>About</Link></li>
                     <li><Link tabindex="3" activeClass="active" to="projects__main__container" spy={true} smooth={true} duration={5000}>Projects</Link></li>
                     <li><Link tabindex="4" activeClass="active" to="experience__card" spy={true} smooth={true} duration={5000}>Experience</Link></li>
                     <li><Link tabindex="5" activeClass="active" to="education" spy={true} smooth={true} duration={6000}>Education</Link></li>
