@@ -103,6 +103,12 @@
         flex-direction: column;
     }
 }
+@media (max-width: 768px) {
+    .experience__head{
+        max-width: 1000px;
+        width: 90%;
+    }
+}
 @media (max-width: 480px) {
     .experience__card__container{
         flex-direction: column;

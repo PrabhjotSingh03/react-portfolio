@@ -77,14 +77,29 @@
     transition: transform calc(var(--transform-speed) * 1.7)ease;
 }
 
+.header-name { 
+    text-align: center;
+    color: #072595;
+    padding-top: 1.5rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%
+}
+
+.header-name h3{ 
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
 .devices__container {
     padding-top: 4rem;
 }
 
 .devices__container img {
     margin-bottom: -0.35rem;
-    max-width: 860px;
-    width: 90%;
+    max-width: 900px;
+    width: 60%;
     height: auto;
 }
 

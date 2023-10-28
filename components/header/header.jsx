@@ -16,6 +16,9 @@ function Header() {
                         <img className='person__img' src='/images/my__pic.png' />
                     </div>
                 </div>
+                <div className='header-name'>
+                    <h3>Hey, I&apos;m Prabhjot Singh</h3>
+                </div>
                 <div className='devices__container'>
                     <img src='/images/header-devices.svg'></img>
                 </div>
