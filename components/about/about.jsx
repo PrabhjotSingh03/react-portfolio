@@ -6,7 +6,10 @@ function About() {
             <div className="about__me__main">
                 <div className="about__me">
                     <h1>Get to know me!</h1>
-                    <h2>Nurturing Impact Through Web Artistry. A dedicated web creator driven by passion. Crafting end-to-end wonders that foster sustainable impact across digital horizons. Let&apos;s shape a meaningful tomorrow, one pixel at a time. I&apos;m quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h2>
+                    <h2>A Full-Stack Web Developer (Frontend | Backend) building the Front-end of Websites and their backend processes that lead to the success of the overall product. A dedicated web creator driven by passion.Specializing in helping brands grow fast.
+                    I&apos;m open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to contact me.
+                    </h2>
+                    {/* <h2>Nurturing Impact Through Web Artistry. A dedicated web creator driven by passion. Crafting end-to-end wonders that foster sustainable impact across digital horizons. Let&apos;s shape a meaningful tomorrow, one pixel at a time. I&apos;m quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h2> */}
                 </div></div>
             <div className="skills__main__container">
                 <div className="skills__container">
