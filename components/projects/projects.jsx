@@ -98,17 +98,6 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project__card">
-                    <img className="project__image" src='/images/projects/gamehaven.jpg' alt='GameHaven' />
-                    <div className="project__details">
-                        <h3 className="project__title">GameHaven</h3>
-                        <p className="project__description">A app to manage purchases of various games and their buyers. Link Buyers to games and games with a genre</p>
-                        <p className="project__languages">ASP.Net C#, Bootstrap</p>
-                        <a className="project__link" href='http://ec2-44-217-216-142.compute-1.amazonaws.com/GameHaven/' target="_blank" rel="noopener noreferrer">
-                            Visit Website
-                        </a>
-                    </div>
-                </div>
-                <div className="project__card">
                     <img className="project__image" src='/images/projects/gadgetshubui.jpg' alt='GadgetsHub UI' />
                     <div className="project__details">
                         <h3 className="project__title">GadgetsHub UI</h3>
