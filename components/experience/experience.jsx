@@ -84,7 +84,7 @@ function Experience() {
                                     <h4>Mohali, Punjab, India</h4>
                                 </div>
                             </div>
-                            <p className="experience__position__description">As a web developer at Extech Digital, I specialized in crafting website layouts and user interfaces using HTML and CSS. I excelled in seamlessly integrating data from various back-end services, ensuring a smooth user experience. My commitment to best development practices resulted in efficient, well-designed code. I played a crucial role in gathering and aligning project specifications with technical needs, contributing to project success. Additionally, I was instrumental in creating and maintaining comprehensive software documentation to promote collaboration and knowledge sharing within the team.</p>
+                            <p className="experience__position__description">As a web developer at Extech Digital, I specialized in crafting website layouts and user interfaces using HTML and CSS. I excelled in integrating data from back-end services for a seamless user experience and maintained efficient, well-designed code through best development practices. I played a crucial role in aligning project specifications with technical needs, contributing to project success. I also created and maintained extensive software documentation to promote team collaboration and knowledge sharing.</p>
                         </div>
                     </div>
                     <div className="experience__card">
@@ -110,7 +110,7 @@ function Experience() {
                                     <h4>Baddi University, HP, India</h4>
                                 </div>
                             </div>
-                            <p className="experience__position__description"> A vibrant society with a key focus on the Internet of Things (IoT). With a mission to cultivate a collaborative space where tech enthusiasts, and professionals, come together to explore, create, and propel the possibilities of IoT and related technologies. Through workshops, projects, and collaboration, members enhance their skills, develop innovative solutions, and address real-world challenges. With a strong commitment to ethical considerations, industry networking, and community outreach, SWAT was not just a society—it was a dynamic hub for shaping the future of technology.</p>
+                            <p className="experience__position__description"> A society with a key focus on IoT. With a mission to cultivate a collaborative space where tech enthusiasts, and professionals, come together to explore, create, and propel the possibilities of IoT and related technologies. Through workshops, projects, and collaboration, members enhance their skills, develop innovative solutions, and address real-world challenges. With a strong commitment to industry networking, and community outreach, SWAT was not just a society—it was a dynamic hub for shaping the future of technology.</p>
                         </div>
                     </div>
                 </div>

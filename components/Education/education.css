@@ -1,126 +1,138 @@
-/* .education__container__main{
-    margin-top: -10rem;
-} */
-.education{
-    margin-top: 1em;
+.education {
+    max-width: 1440px;
+    width: 100%;
+    margin: 1em 0 auto;
 }
-.education__container{
+
+.education__container {
     display: flex;
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1440px;
     width: 90%;
     padding: 3rem 0rem;
 }
-.education__main__img{
+
+.education__main__img {
     flex: 1 1;
     text-align: center;
 }
-.education__screen__svg{
+
+.education__screen__svg {
     max-width: 70%;
     height: auto;
 }
-.education__data{
+
+.education__data {
     flex: 1 1 0;
     text-align: center;
 }
-.education__data h1, .degrees h1{
+
+.education__data h1,
+.degrees h1 {
     font-size: 2.5rem;
     font-weight: 700;
     color: #141c3a;
 }
-.education__data h2{
+
+.education__data h2 {
     font-size: 2rem;
     font-weight: 600;
     color: #202e5c;
 }
-.education__card__main{
-    margin: 0 auto;
-    max-width: 1300px;
-    width: 90%;
-    padding: 1rem 0rem;
-}
-.education__card__container{
+
+.education__container__main {
     display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 90%;
+    flex-flow: row wrap;
     gap: 2em;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 94%;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.education__card__container {
     border-radius: 10px;
     border: 1px solid #ff1b6b;
-    color: #141c3a; 
-    padding: 15px 10px;
+    color: #141c3a;
+    padding: 2em;
+    flex: 1 0 25%;
 }
+
 .education__image__container{
+    height: 5.5em;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5em;
 }
-.education__details{
-    flex: 1 1;
-}
-.education__image{
+
+.education__image {
     width: 70px;
     height: auto;
 }
-.education__details h3, p, h4{
+
+.education__details h3,
+p,
+h4 {
     padding: 1px;
     margin: 0;
 }
-.education__title__container{
-    flex: 1 1;
-}
-.education__position__title{
+
+.education__position__title {
     font-weight: 700;
     font-size: 1.2em;
 }
-.education__college__title a{
+
+.education__college__title a {
     padding: 0px 20px 0px 0px;
-    color: #141c3a;  
-    font-weight: 600;  
+    color: #141c3a;
+    font-weight: 600;
     font-size: 1.1em;
 }
-.education__college__title a:hover{
+
+.education__college__title a:hover {
     transition: all .3s ease-in-out;
-    color:#6E07F3;
+    color: #6E07F3;
 }
-.college__title__container{
-    display: flex;
-    flex-direction: row;
-}
-.degree__work__time, .college__location{
-    padding-right: 20px;
-}
-.education__position__description{
+
+.education__position__description {
     padding-top: 10px;
     font-size: 1em;
-    font-weight: 600; 
+    font-weight: 600;
+    text-align: justify;
 }
+
 @media (max-width: 800px) {
-    .education__data{
+    .education__data {
         margin-top: -3em;
     }
 }
+
 @media (max-width: 630px) {
-    .education__container{
+    .education__container {
         flex-direction: column;
     }
-    .education__screen__svg{
+
+    .education__screen__svg {
         max-width: 40%;
         height: auto;
     }
 }
-@media (max-width: 1024px) {
-    .college__title__container{
+
+@media (max-width: 480px) {
+    .education__card__container {
+        padding: 1em;
+    }
+    .education__container__main {
         flex-direction: column;
     }
 }
-@media (max-width: 480px) {
-    .education__card__container{
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 683px) {
+    .education__card__container {
+        padding: 1em;
     }
-    .education__details{
-        text-align: center;
+    .education__container__main {
+        flex-direction: column;
     }
 }

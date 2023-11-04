@@ -1,8 +1,8 @@
 .projects__main__container{
-    max-width: 1300px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 8em 0 10em;
-    width: 90%;
+    width: 94%;
 }
 .projects__main__container h1{
     font-size: 2rem;
@@ -26,7 +26,7 @@
     flex-flow: row wrap;
     margin: 0 auto;
     gap: 2em;
-    padding-top: 5em;
+    padding-top: 3em;
 }
 .project__card{
     flex: 1 0 30%;

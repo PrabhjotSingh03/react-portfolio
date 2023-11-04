@@ -112,93 +112,84 @@ function Education() {
                 </div>
             </div> */}
             <div className="education__container__main">
-                <div className="education__card__main">
-                    <div className="education__card__container">
-                        <div className='education__image__container'>
-                            <img className='education__image' src='https://ccr.uofgh-humber.ca/content/documents/Image/CCR-signature.png' alt='Humber College CCR Logo' />
-                        </div>
-                        <div className="education__details">
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h3 className="education__position__title">Making Accessible Media</h3>
-                                </div>
-                                <div className='degree__work__time'>
-                                    <h4 className="education__work__time">May 28, 2023</h4>
-                                </div>
+                <div className="education__card__container">
+                    <div className='education__image__container'>
+                        <img className='education__image' src='https://ccr.uofgh-humber.ca/content/documents/Image/CCR-signature.png' alt='Humber College CCR Logo' />
+                    </div>
+                    <div className="education__details">
+                        <div className='college__title__container'>
+                            <div className='education__title__container'>
+                                <h3 className="education__position__title">Making Accessible Media</h3>
                             </div>
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h4 className="education__college__title">
-                                        <a href='https://humber.ca/'>Humber College</a>
-                                    </h4>
-                                </div>
-                                <div className='college__location'>
-                                    <h4>Toronto, Ontario, Canada</h4>
-                                </div>
+                            <div className='degree__work__time'>
+                                <h4 className="education__work__time">May 28, 2023</h4>
                             </div>
-                            <p className="education__position__description">An open access online course that aims to educate individuals on seamlessly integrating accessibility features into media content. The course is meticulously crafted to instill the principle that accessibility must be seamlessly woven into the fabric of the initial development process, rather than treated as an add-on. It significantly emphasizes cultivating an acute understanding of the various barriers—systemic, attitudinal, physical, informational, and technological—that often hinder accessibility within contemporary artistic and media endeavors.</p>
                         </div>
+                        <div className='college__title__container'>
+                            <div className='education__title__container'>
+                                <h4 className="education__college__title">
+                                    <a href='https://humber.ca/'>Humber College</a>
+                                </h4>
+                            </div>
+                            <div className='college__location'>
+                                <h4>Toronto, Ontario, Canada</h4>
+                            </div>
+                        </div>
+                        <p className="education__position__description">I completed a course dedicated to educating individuals on the integration of accessibility features into media content. This course emphasizes the importance of integrating accessibility into the initial development process. It provides a deep understanding of the various barriers that can hinder accessibility in websites, including systemic, attitudinal, physical, informational, and technological obstacles.</p>
                     </div>
                 </div>
-            </div>
-            <div className="education__container__main">
-                <div className="education__card__main">
-                    <div className="education__card__container">
-                        <div className='education__image__container'>
-                            <img className='education__image' src='/images/education/humber.png' alt='Humber College Logo' />
-                        </div>
-                        <div className="education__details">
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h3 className="education__position__title">Post Graduation/Graduate Certificate in Web Development</h3>
-                                </div>
-                                <div className='degree__work__time'>
-                                    <h4 className="education__work__time">January 2023 - Present</h4>
-                                </div>
+                <div className="education__card__container">
+                    <div className='education__image__container'>
+                        <img className='education__image' src='/images/education/humber.png' alt='Humber College Logo' />
+                    </div>
+                    <div className="education__details">
+                        <div className='college__title__container'>
+                            <div className='education__title__container'>
+                                <h3 className="education__position__title">Post Graduate Certificate</h3>
+                                <h3 className="education__position__title">Web Development</h3>
                             </div>
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h4 className="education__college__title">
-                                        <a href='https://humber.ca/'>Humber College</a>
-                                    </h4>
-                                </div>
-                                <div className='college__location'>
-                                    <h4>Toronto, Ontario, Canada</h4>
-                                </div>
+                            <div className='degree__work__time'>
+                                <h4 className="education__work__time">January 2023 - Present</h4>
                             </div>
-                            <p className="education__position__description">Humber&apos;s Web Development graduate certificate program provided an immersive learning experience in the realm of website and web service development across various platforms. Through the curriculum, I gained expertise in database-driven programming, content management systems, and mobile services. The program offered a balanced blend of theoretical insights and hands-on training,  individual and team-based projects, mirroring real-world professional dynamics and fostering the cultivation of my collaborative and teamwork proficiencies, equipping me to meticulously strategize, craft, and implement impactful website designs and functionalities. The program uniquely positioned me to tackle the challenge of developing websites aligning with stringent business and developmental prerequisites.</p>
                         </div>
+                        <div className='college__title__container'>
+                            <div className='education__title__container'>
+                                <h4 className="education__college__title">
+                                    <a href='https://humber.ca/'>Humber College</a>
+                                </h4>
+                            </div>
+                            <div className='college__location'>
+                                <h4>Toronto, Ontario, Canada</h4>
+                            </div>
+                        </div>
+                        <p className="education__position__description">I gained expertise in website development on diverse platforms with database-driven programming, and content management systems. This program balanced theory with hands-on projects, enhancing both individual and teamwork skills. It prepared me to create impactful website designs and functionalities, addressing strict business and developmental requirements.</p>
                     </div>
                 </div>
-            </div>
-            <div className="education__container__main">
-                <div className="education__card__main">
-                    <div className="education__card__container">
-                        <div className='education__image__container'>
-                            <img className='education__image' src='/images/education/buest.png' alt='Baddi University of Emerging Sciences and Technology Logo' />
-                        </div>
-                        <div className="education__details">
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h3 className="education__position__title">Bachelor of Technology in Computer Science and Engineering</h3>
-                                </div>
-                                <div className='degree__work__time'>
-                                    <h4 className="education__work__time">July 2013 - May 2017</h4>
-                                </div>
+                <div className="education__card__container">
+                    <div className='education__image__container'>
+                        <img className='education__image' src='/images/education/buest.png' alt='Baddi University of Emerging Sciences and Technology Logo' />
+                    </div>
+                    <div className="education__details">
+                        <div className='college__title__container'>
+                            <div className='education__title__container'>
+                                <h3 className="education__position__title">Bachelor of Technology</h3>
+                                <h3 className="education__position__title">Computer Science and Engineering</h3>
                             </div>
-                            <div className='college__title__container'>
-                                <div className='education__title__container'>
-                                    <h4 className="education__college__title">
-                                        <a href='https://www.baddiuniv.ac.in/'>Baddi University of Emerging Sciences and Technology</a>
-                                    </h4>
-                                </div>
-                                <div className='college__location'>
-                                    <h4>Baddi, Himachal Pardesh, India</h4>
-                                </div>
+                            <div className='degree__work__time'>
+                                <h4 className="education__work__time">July 2013 - May 2017</h4>
                             </div>
-                            <p className="education__position__description">Enrolled in a Bachelor of Technology in Computer Science and Engineering, I&apos;ve immersed myself in a comprehensive program at the intersection of technology and innovation. This degree has provided a balanced blend of theoretical knowledge and hands-on experience, enabling me to develop advanced solutions for complex challenges.
-                                Throughout my academic journey, I&apos;ve gained expertise in algorithmic design, software development, hardware systems, and data management. The program&apos;s collaborative projects, both individual and team-based, have honed my teamwork and problem-solving skills in real-world scenarios.</p>
                         </div>
+                        <div className='college__title__container'>
+                            <div className='education__title__container'>
+                                <h4 className="education__college__title">
+                                    <a href='https://www.baddiuniv.ac.in/'>Baddi University of Emerging Sciences and Technology</a>
+                                </h4>
+                            </div>
+                            <div className='college__location'>
+                                <h4>Baddi, Himachal Pardesh, India</h4>
+                            </div>
+                        </div>
+                        <p className="education__position__description">The degree has equipped me with a well-rounded education, encompassing both theoretical concepts and practical experience. I have developed proficiency in algorithmic design, software development, and data management. Through collaborative projects, I have refined my teamwork and problem-solving skills in real-world situations.</p>
                     </div>
                 </div>
             </div>
