@@ -57,6 +57,12 @@
     border: 1px solid #ff1b6b;
     color: #141c3a;
     padding: 2em;
+    transition: .7s ease-out;
+}
+
+.experience__card:hover{
+    box-shadow: 0 0 30px rgb(217 131 131 / 40%);
+    transform: translateY(-1rem);
 }
 
 .experience__image__container {
