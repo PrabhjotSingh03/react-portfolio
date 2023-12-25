@@ -149,7 +149,7 @@ function Education() {
                                 <h3 className="education__position__title">Web Development</h3>
                             </div>
                             <div className='degree__work__time'>
-                                <h4 className="education__work__time">January 2023 - Present</h4>
+                                <h4 className="education__work__time">January, 2023 - December, 2023</h4>
                             </div>
                         </div>
                         <div className='college__title__container'>
@@ -176,7 +176,7 @@ function Education() {
                                 <h3 className="education__position__title">Computer Science and Engineering</h3>
                             </div>
                             <div className='degree__work__time'>
-                                <h4 className="education__work__time">July 2013 - May 2017</h4>
+                                <h4 className="education__work__time">July, 2013 - May, 2017</h4>
                             </div>
                         </div>
                         <div className='college__title__container'>
