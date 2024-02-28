@@ -119,7 +119,7 @@ function Education() {
                     <div className="education__details">
                         <div className='college__title__container'>
                             <div className='education__title__container'>
-                                <h3 className="education__position__title">Post Graduate Certificate</h3>
+                                <h3 className="education__position__title">Post Graduate Diploma</h3>
                                 <h3 className="education__position__title">Cybersecurity</h3>
                             </div>
                             <div className='degree__work__time'>
@@ -172,7 +172,7 @@ function Education() {
                     <div className="education__details">
                         <div className='college__title__container'>
                             <div className='education__title__container'>
-                                <h3 className="education__position__title">Post Graduate Certificate</h3>
+                                <h3 className="education__position__title">Post Graduate Diploma</h3>
                                 <h3 className="education__position__title">Web Development</h3>
                             </div>
                             <div className='degree__work__time'>
