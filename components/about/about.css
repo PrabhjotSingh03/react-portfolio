@@ -64,6 +64,11 @@
     margin: 0 auto;
 }
 
+.skills__logo{
+    width: 40px;
+    height: 40px;
+}
+
 @media (max-width: 768px) {
     .about__me__main {
         flex: 1 0 100%;
