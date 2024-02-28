@@ -75,13 +75,24 @@ function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="project__card">
+                {/* <div className="project__card">
                     <img className="project__image" src='/images/projects/playmentor.jpg' alt='Play Mentor' />
                     <div className="project__details">
                         <h3 className="project__title">Play Mentor</h3>
                         <p className="project__description">A CMS to recommend games to users to play based on ratings.</p>
                         <p className="project__languages">HTML, CSS, PHP, MYSQL</p>
                         <a className="project__link" href='http://phpexercises.lovestoblog.com/playmentor/index.php' target="_blank" rel="noopener noreferrer">
+                            Visit Website
+                        </a>
+                    </div>
+                </div> */}
+                <div className="project__card">
+                    <img className="project__image" src='/images/projects/gadgetshubui.jpg' alt='GadgetsHub UI' />
+                    <div className="project__details">
+                        <h3 className="project__title">GadgetsHub UI</h3>
+                        <p className="project__description">An ecommerce shopping website user interface for gadgets</p>
+                        <p className="project__languages">HTML, CSS</p>
+                        <a className="project__link" href='https://gadgetshubui.netlify.app/' target="_blank" rel="noopener noreferrer">
                             Visit Website
                         </a>
                     </div>
