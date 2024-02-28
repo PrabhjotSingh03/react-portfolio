@@ -119,7 +119,7 @@ function Education() {
                     <div className="education__details">
                         <div className='college__title__container'>
                             <div className='education__title__container'>
-                                <h3 className="education__position__title">Post Graduate Diploma</h3>
+                                <h3 className="education__position__title">Post Graduation Diploma</h3>
                                 <h3 className="education__position__title">Cybersecurity</h3>
                             </div>
                             <div className='degree__work__time'>
@@ -136,7 +136,7 @@ function Education() {
                                 <h4>Toronto, Ontario, Canada</h4>
                             </div>
                         </div>
-                        <p className="education__position__description">The one-year program addresses the increasing demand for professionals in the field. Covering networking, Sumo logic, Kali Linux, ethical hacking, and incident response, it equips students with essential skills to combat cyber threats, meeting industry needs for security expertise. Graduates are well-prepared to address the current and emerging challenges in the dynamic field of cybersecurity.</p>
+                        <p className="education__position__description">The program addresses the increasing demand for professionals in the field. Covering networking, Sumo logic, Kali Linux, ethical hacking, and incident response, it equips students with essential skills to combat cyber threats, meeting industry needs for security expertise. Graduates are well-prepared to address the current and emerging challenges in the dynamic field of cybersecurity.</p>
                     </div>
                 </div>
                 {/* <div className="education__card__container">
@@ -172,7 +172,7 @@ function Education() {
                     <div className="education__details">
                         <div className='college__title__container'>
                             <div className='education__title__container'>
-                                <h3 className="education__position__title">Post Graduate Diploma</h3>
+                                <h3 className="education__position__title">Post Graduation Diploma</h3>
                                 <h3 className="education__position__title">Web Development</h3>
                             </div>
                             <div className='degree__work__time'>
