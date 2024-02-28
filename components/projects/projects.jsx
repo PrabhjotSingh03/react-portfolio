@@ -152,7 +152,7 @@ function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="project__card">
+                {/* <div className="project__card">
                     <img className="project__image" src='https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' alt='Aavas.in' />
                     <div className="project__details">
                         <h3 className="project__title">Aavas.in</h3>
@@ -162,7 +162,7 @@ function Projects() {
                             Visit Website
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="more__projects">
                 <a href="https://github.com/PrabhjotSingh03">See More Projects</a>
