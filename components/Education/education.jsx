@@ -114,6 +114,33 @@ function Education() {
             <div className="education__container__main">
                 <div className="education__card__container">
                     <div className='education__image__container'>
+                        <img className='education__image' src='/images/education/gbc.png' alt='Humber College Logo' />
+                    </div>
+                    <div className="education__details">
+                        <div className='college__title__container'>
+                            <div className='education__title__container'>
+                                <h3 className="education__position__title">Post Graduate Certificate</h3>
+                                <h3 className="education__position__title">Cybersecurity</h3>
+                            </div>
+                            <div className='degree__work__time'>
+                                <h4 className="education__work__time">January, 2024 - Present</h4>
+                            </div>
+                        </div>
+                        <div className='college__title__container'>
+                            <div className='education__title__container'>
+                                <h4 className="education__college__title">
+                                    <a href='https://www.georgebrown.ca/'>George Brown College</a>
+                                </h4>
+                            </div>
+                            <div className='college__location'>
+                                <h4>Toronto, Ontario, Canada</h4>
+                            </div>
+                        </div>
+                        <p className="education__position__description">I gained expertise in website development on diverse platforms with database-driven programming, and content management systems. This program balanced theory with hands-on projects, enhancing both individual and teamwork skills. It prepared me to create impactful website designs and functionalities, addressing strict business and developmental requirements.</p>
+                    </div>
+                </div>
+                {/* <div className="education__card__container">
+                    <div className='education__image__container'>
                         <img className='education__image' src='https://ccr.uofgh-humber.ca/content/documents/Image/CCR-signature.png' alt='Humber College CCR Logo' />
                     </div>
                     <div className="education__details">
@@ -137,7 +164,7 @@ function Education() {
                         </div>
                         <p className="education__position__description">I completed a course dedicated to educating individuals on the integration of accessibility features into media content. This course emphasizes the importance of integrating accessibility into the initial development process. It provides a deep understanding of the various barriers that can hinder accessibility in websites, including systemic, attitudinal, physical, informational, and technological obstacles.</p>
                     </div>
-                </div>
+                </div> */}
                 <div className="education__card__container">
                     <div className='education__image__container'>
                         <img className='education__image' src='/images/education/humber.png' alt='Humber College Logo' />
