@@ -136,7 +136,7 @@ function Education() {
                                 <h4>Toronto, Ontario, Canada</h4>
                             </div>
                         </div>
-                        <p className="education__position__description">I gained expertise in website development on diverse platforms with database-driven programming, and content management systems. This program balanced theory with hands-on projects, enhancing both individual and teamwork skills. It prepared me to create impactful website designs and functionalities, addressing strict business and developmental requirements.</p>
+                        <p className="education__position__description">The one-year program addresses the increasing demand for professionals in the field. Covering traditional and cloud technologies, ethical hacking, and incident response, it equips students with essential skills to combat cyber threats, meeting industry needs for security expertise.</p>
                     </div>
                 </div>
                 {/* <div className="education__card__container">
