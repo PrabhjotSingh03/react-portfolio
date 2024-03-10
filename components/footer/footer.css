@@ -102,7 +102,7 @@
 .social__links a{
     color: #fff;
 }
-.social__links a:not(:nth-child(3)){
+.social__links a:not(:nth-child(4)){
     padding-right: 1.5em;
 }
 .social__links a:hover{
