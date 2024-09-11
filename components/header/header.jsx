@@ -5,7 +5,7 @@ function Header() {
         <div className="header">
             <div className="header-container">
                 <div className="header-title">
-                    <h1>Cybersecurity Enthusiast & Full Stack Web Developer</h1>
+                    <h1>Cybersecurity Analyst & Web Developer</h1>
                 </div>
                 <div className='header-subtitle'>
                     <h2>Crafting elegant code and designs, infusing simplicity into every pixel while navigating the world of cybersecurity.</h2>
