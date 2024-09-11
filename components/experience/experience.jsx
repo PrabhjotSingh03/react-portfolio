@@ -24,7 +24,7 @@ function Experience() {
                 <div className="experience__intro__heading">
                     <h1>Experience</h1>
                     <h2>Work, Internship and Volunteership.</h2>
-                    <h3>An aspiring cybersecurity professional with a strong foundation in web development. I am passionate about safeguarding digital environments and blending my web development expertise with cybersecurity knowledge to craft secure, innovative solutions. Actively involved in ethical hacking, pen testing, and cybersecurity community engagement, my goal is to bridge the gap between development and security, ensuring functionality without compromising safety.</h3>
+                    <h3>An aspiring cybersecurity and SOC professional with a strong foundation in web development. Passionate about safeguarding digital environments and blending web development expertise with cybersecurity knowledge to craft secure, innovative solutions. Actively involved in ethical hacking, pen testing, and cybersecurity community engagement, to bridge the gap between development and security, ensuring functionality without compromising safety.</h3>
                 </div>
             </div>
             {/* <div className="experience__container__main">
