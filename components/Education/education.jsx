@@ -119,7 +119,7 @@ function Education() {
                     <div className="education__details">
                         <div className='college__title__container'>
                             <div className='education__title__container'>
-                                <h3 className="education__position__title">Post Graduation Diploma</h3>
+                                <h3 className="education__position__title">Graduate Certificate</h3>
                                 <h3 className="education__position__title">Cybersecurity</h3>
                             </div>
                             <div className='degree__work__time'>
@@ -136,7 +136,7 @@ function Education() {
                                 <h4>Toronto, Ontario, Canada</h4>
                             </div>
                         </div>
-                        <p className="education__position__description">The program addresses the increasing demand for professionals in the field. Covering networking, Sumo logic, Kali Linux, ethical hacking, and incident response, it equips students with essential skills to combat cyber threats, meeting industry needs for security expertise. Graduates are well-prepared to address the current and emerging challenges in the dynamic field of cybersecurity.</p>
+                        <p className="education__position__description">My program addresses the increasing demand for cybersecurity professionals. By covering networking, Sumo Logic, Kali Linux, ethical hacking, and incident response, I’ve gained essential skills to combat cyber threats and meet industry demands for security expertise. I’ve developed a strong foundation in SOC operations, including IDS/IPS, YARA Rules, Suricata, cryptography, and legal compliance. This comprehensive learning has prepared me to tackle current and emerging cybersecurity challenges, ensuring that I can effectively protect systems and networks in the ever-evolving field of cybersecurity.</p>
                     </div>
                 </div>
                 {/* <div className="education__card__container">
@@ -172,7 +172,7 @@ function Education() {
                     <div className="education__details">
                         <div className='college__title__container'>
                             <div className='education__title__container'>
-                                <h3 className="education__position__title">Post Graduation Diploma</h3>
+                                <h3 className="education__position__title">Graduate Certificate</h3>
                                 <h3 className="education__position__title">Web Development</h3>
                             </div>
                             <div className='degree__work__time'>
