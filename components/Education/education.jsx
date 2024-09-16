@@ -136,7 +136,7 @@ function Education() {
                                 <h4>Toronto, Ontario, Canada</h4>
                             </div>
                         </div>
-                        <p className="education__position__description">My program addresses the increasing demand for cybersecurity professionals. By covering networking, Sumo Logic, Kali Linux, ethical hacking, and incident response, I’ve gained essential skills to combat cyber threats and meet industry demands for security expertise. I’ve developed a strong foundation in SOC operations, including IDS/IPS, YARA Rules, Suricata, cryptography, and legal compliance. This comprehensive learning has prepared me to tackle current and emerging cybersecurity challenges, ensuring that I can effectively protect systems and networks in the ever-evolving field of cybersecurity.</p>
+                        <p className="education__position__description">The program addresses the increasing demand for cybersecurity professionals.  I’ve developed a strong foundation in SOC operations, including IDS/IPS, Digital Forensics, Incident Response, Ethical Hacking, Penetration testing and legal compliance. This comprehensive learning has prepared me to tackle current and emerging cybersecurity challenges, ensuring that I can effectively protect systems and networks in the ever-evolving field of cybersecurity.</p>
                     </div>
                 </div>
                 {/* <div className="education__card__container">
