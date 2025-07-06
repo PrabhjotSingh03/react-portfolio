@@ -123,7 +123,7 @@ function Education() {
                                 <h3 className="education__position__title">Cybersecurity</h3>
                             </div>
                             <div className='degree__work__time'>
-                                <h4 className="education__work__time">January, 2024 - Present</h4>
+                                <h4 className="education__work__time">January, 2024 - December, 2025</h4>
                             </div>
                         </div>
                         <div className='college__title__container'>
