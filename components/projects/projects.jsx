@@ -42,7 +42,18 @@ function Projects() {
                 ))}
             </div> */}
             <div className='projects__show__card'>
-            <div className="project__card">
+                <div className="project__card">
+                    <img className="project__image" src='/images/projects/Suricata.png' alt='Play Mentor' />
+                    <div className="project__details">
+                        <h3 className="project__title">Suricata IDS/IPS Implementation</h3>
+                        <p className="project__description">Installed, configured, and tested Suricata IDS/IPS using Sumologic.</p>
+                        <p className="project__languages">Security Operations Center(SOC)</p>
+                        <a className="project__link" href='https://www.linkedin.com/posts/prabhjot-singh-sains_report-on-suricata-idpsips-integrated-with-activity-7407229832117469184-us9w' target="_blank" rel="noopener noreferrer">
+                            Visit Website
+                        </a>
+                    </div>
+                </div>
+                <div className="project__card">
                     <img className="project__image" src='/images/projects/urbanclothingv1.png' alt='Urban Clothing' />
                     <div className="project__details">
                         <h3 className="project__title">Urban Clothing</h3>
@@ -141,7 +152,7 @@ function Projects() {
                         </a>
                     </div>
                 </div>*/}
-                <div className="project__card">
+                {/*<div className="project__card">
                     <img className="project__image" src='/images/projects/photoshopmockup.jpg' alt='Photoshop Mockups' />
                     <div className="project__details">
                         <h3 className="project__title">Photoshop Mockups</h3>
@@ -151,7 +162,7 @@ function Projects() {
                             Visit Website
                         </a>
                     </div>
-                </div>
+                </div>*/}
                 {/* <div className="project__card">
                     <img className="project__image" src='https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80' alt='Aavas.in' />
                     <div className="project__details">
