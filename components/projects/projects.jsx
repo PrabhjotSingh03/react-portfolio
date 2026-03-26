@@ -97,7 +97,7 @@ function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="project__card">
+                {/*<div className="project__card">
                     <img className="project__image" src='/images/projects/visualechoquest.jpg' alt='Visual Echo Quest' />
                     <div className="project__details">
                         <h3 className="project__title">Visual Echo Quest</h3>
@@ -107,8 +107,8 @@ function Projects() {
                             Visit Website
                         </a>
                     </div>
-                </div>
-                <div className="project__card">
+                </div>*/}
+                {/*<div className="project__card">
                     <img className="project__image" src='/images/projects/gadgetshub.jpg' alt='GadgetsHub CMS' />
                     <div className="project__details">
                         <h3 className="project__title">GadgetsHub CMS</h3>
@@ -118,7 +118,7 @@ function Projects() {
                             Visit Website
                         </a>
                     </div>
-                </div>
+                </div>*/}
                 <div className="project__card">
                     <img className="project__image" src='/images/projects/gameselection.jpg' alt='Gaming Nexus' />
                     <div className="project__details">
@@ -130,7 +130,7 @@ function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="project__card">
+                {/*<div className="project__card">
                     <img className="project__image" src='/images/projects/figmamockup.jpg' alt='Figma Mockup' />
                     <div className="project__details">
                         <h3 className="project__title">Figma Mockup</h3>
@@ -140,7 +140,7 @@ function Projects() {
                             Visit Website
                         </a>
                     </div>
-                </div>
+                </div>*/}
                 <div className="project__card">
                     <img className="project__image" src='/images/projects/photoshopmockup.jpg' alt='Photoshop Mockups' />
                     <div className="project__details">
