@@ -119,12 +119,12 @@ function Education() {
                     <div className="education__details">
                         <div className='college__title__container'>
                             <div className='education__title__container'>
-                                <h3 className="education__position__title">Graduate Certificate</h3>
+                                <h3 className="education__position__title">Graduate Certificate, 2024</h3>
                                 <h3 className="education__position__title">Cybersecurity</h3>
                             </div>
-                            <div className='degree__work__time'>
+                            {/*<div className='degree__work__time'>
                                 <h4 className="education__work__time">January, 2024 - December, 2024</h4>
-                            </div>
+                            </div>*/}
                         </div>
                         <div className='college__title__container'>
                             <div className='education__title__container'>
@@ -172,12 +172,12 @@ function Education() {
                     <div className="education__details">
                         <div className='college__title__container'>
                             <div className='education__title__container'>
-                                <h3 className="education__position__title">Graduate Certificate</h3>
+                                <h3 className="education__position__title">Graduate Certificate. 2023</h3>
                                 <h3 className="education__position__title">Web Development</h3>
                             </div>
-                            <div className='degree__work__time'>
+                            {/*<div className='degree__work__time'>
                                 <h4 className="education__work__time">January, 2023 - December, 2023</h4>
-                            </div>
+                            </div>*/}
                         </div>
                         <div className='college__title__container'>
                             <div className='education__title__container'>
@@ -199,12 +199,12 @@ function Education() {
                     <div className="education__details">
                         <div className='college__title__container'>
                             <div className='education__title__container'>
-                                <h3 className="education__position__title">Bachelor of Technology</h3>
+                                <h3 className="education__position__title">Bachelor of Technology, 2017</h3>
                                 <h3 className="education__position__title">Computer Science and Engineering</h3>
                             </div>
-                            <div className='degree__work__time'>
+                            {/*<div className='degree__work__time'>
                                 <h4 className="education__work__time">July, 2013 - May, 2017</h4>
-                            </div>
+                            </div>*/}
                         </div>
                         <div className='college__title__container'>
                             <div className='education__title__container'>

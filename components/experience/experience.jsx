@@ -63,7 +63,7 @@ function Experience() {
                 <div className="experience__card__container">
                     <div className="experience__card">
                         <div className='experience__image__container'>
-                            <img className="experience__image" src='https://extechdigital.in/wp-content/uploads/2023/03/cropped-logonew-removebg-preview-2-165x50.png' alt='Extech Digital Logo' />
+                            <img className="experience__image" src='/images/experience/extech.jpeg' alt='Extech Digital Logo' />
                         </div>
                         <div className="experience__details">
                             <div className='company__title__container'>
